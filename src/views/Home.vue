@@ -1,45 +1,5 @@
 <template>
-  <div class="container-fluid text-white">
-    <vue-particles
-      color="#000"
-      class="particle"
-      shapeType="circle"
-      :particleSize="10"
-      :lineLinked="false"
-      :linesWidth="5"
-      :linesDistance="150"
-      :moveSpeed="3"
-      :hoverEffect="true"
-      hoverMode="grab"
-    >
-    </vue-particles>
-    <nav class="container navbar navbar-expand-lg navbar-light bg-transparent py-4">
-      <a class="navbar-brand text-white" href="#">
-        <img class="imgNav" src="@/assets/earth-globe.svg" alt="science" title="Icons made by surang from www.flaticon.com">
-      </a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> -->
-            <router-link class="nav-link text-white" to="/">Home<span class="sr-only">(current)</span></router-link>
-          </li>
-          <li class="nav-item">
-            <!-- <a class="nav-link" href="#">News</a> -->
-            <router-link class="nav-link text-white" to="/about">News</router-link>
-          </li>
-          <li class="nav-item">
-            <!-- <a class="nav-link text-white" href="#">Login</a> -->
-            <button type="button" class="btn btnHead text-light">Login</button>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
+  <div class="text-white">
     <div class="row align-items-center pb-5">
       <div class="col-md-8 col-sm-12 headWrapper">
         <h1 class="appHead">Join the Revolution in writing world-class STEM news...</h1>
@@ -49,24 +9,22 @@
       </div>
 
       <div class="col-md-4 col-sm-12">
-        <img class="imgHead" src="@/assets/chemistry.svg" alt="science" title="Icons made by surang from www.flaticon.com">
+        <img class="imgHead" src="@/assets/chemistry.svg" alt="science" title="Icons made by Surang from www.flaticon.com">
       </div>
     </div>
 
     <section class="about text-dark py-5">
-      <div class="col-md-4 offset-md-4 col-sm-12 text-center">
+      <div class="col-md-4 offset-md-4 col-sm-12 text-center px-2">
         <h2 class="text-uppercase">About sci-news</h2>
-        <p class="">Light weight text. whwhwhhhhw hesjrnsfsnd hwnekkjnfj ksnfksjnfdnnd </p>
-        <p class="">Light weight text. whwhwhhhhw hesjrnsfsnd hwnekkjnfj ksnfksjnfdnnd </p>
-        <p class="">Light weight text. whwhwhhhhw hesjrnsfsnd hwnekkjnfj ksnfksjnfdnnd </p>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
       </div>
     </section>
 
     <section class="text-dark p-5">
       <div class="card-deck mb-4">
         <div class="card">
-          <!-- <img src="@/assets/logo.png" class="card-img-top" alt=""> -->
-          <img src="@/assets/logo.png" class="" alt="">
+          <!-- <img src="@/assets/logo.png" class="card-img-top" alt="sci-fi" style="max-width: 50%, margin: auto"> -->
+          <img src="@/assets/logo.png" class="" alt="sci-fi">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -74,7 +32,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="@/assets/logo.png" class="" alt="">
+          <img src="@/assets/logo.png" class="" alt="sci-fi">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -82,7 +40,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="@/assets/logo.png" class="" alt="">
+          <img src="@/assets/logo.png" class="" alt="sci-fi">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -92,8 +50,7 @@
       </div>
       <div class="card-deck">
         <div class="card">
-          <!-- <img src="@/assets/logo.png" class="card-img-top" alt=""> -->
-          <img src="@/assets/logo.png" class="" alt="">
+          <img src="@/assets/logo.png" class="" alt="sci-fi">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -101,7 +58,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="@/assets/logo.png" class="" alt="">
+          <img src="@/assets/logo.png" class="" alt="sci-fi">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -109,7 +66,7 @@
           </div>
         </div>
         <div class="card">
-          <img src="@/assets/logo.png" class="" alt="">
+          <img src="@/assets/logo.png" class="" alt="sci-fi">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -120,38 +77,48 @@
     </section>
 
     <section class="testimonial text-dark py-5">
-      <div class="col-md-4 offset-md-4 col-sm-12 text-center">
-        <h2 class="text-uppercase">About sci-news</h2>
-        <p class="">Light weight text. whwhwhhhhw hesjrnsfsnd hwnekkjnfj ksnfksjnfdnnd </p>
-        <p class="">Light weight text. whwhwhhhhw hesjrnsfsnd hwnekkjnfj ksnfksjnfdnnd </p>
-        <p class="">Light weight text. whwhwhhhhw hesjrnsfsnd hwnekkjnfj ksnfksjnfdnnd </p>
+      <div class="col-md-8 offset-md-2 col-sm-12 text-center">
+        <h2 class="text-uppercase">Testimonials</h2>
+        <vue-swimlane :words="testimony" :scale="1" :rows="4" :pauseOnHover="true" :transitionDuration="500" :transitionDelay="250" style="margin-left: -30px; padding-right: 10px"></vue-swimlane>
       </div>
     </section>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-// <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-// <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
 export default {
   name: 'home',
-  components: {
+  data () {
+    return {
+      testimony: [
+        '',
+        '<p class="lead text-break">Reading on Sci-News calms down my nerves.</p>',
+        '<br class="breakText"/>',
+        '<small class="font-italic">Helen J.</small>',
+        '<br />',
+        '<p class="lead text-break">I enjoy the articles from Sci-News. They are informative.</p>',
+        '<br class="breakText"/>',
+        '<small class="font-italic">Michelle Bayo</small>',
+        '<br />',
+        '<p class="lead text-break">I like writing using Sci-News because it is user-friendly.</p>',
+        '<br class="breakText"/>',
+        '<small class="font-italic">Ade James</small>',
+        '<br />',
+        '<p class="lead text-break">Read here... write here... get better...</p>',
+        '<br class="breakText"/>',
+        '<small class="font-italic">Sarah D.</small>',
+        '<br />',
+        '<p class="lead text-break">I learn just everything about STEM here!</p>',
+        '<br class="breakText"/>',
+        '<small class="font-italic">A. Drogba</small>',
+        ''
+      ]
+    }
   }
 }
 </script>
 
 <style scoped="">
-  .particle {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    background: linear-gradient(89deg, #311C72 0%, #5A3F97 100%)
-  }
   .imgNav {
     width: 40px;
     border-radius: 10px;
@@ -181,7 +148,7 @@ export default {
     background: #F4F4F4;
   }
   .testimonial {
-background:
+    background:
     radial-gradient(black 3px, transparent 4px),
     radial-gradient(black 3px, transparent 4px),
     linear-gradient(#fff 4px, transparent 0),
@@ -193,7 +160,12 @@ background:
   }
   @media (max-width: 1000px) {
     .headWrapper {
-      padding: 10px;
+      padding: 20px;
+    }
+  }
+  @media (min-width: 575px) {
+    .breakText {
+      display: none;
     }
   }
 </style>
