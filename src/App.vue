@@ -1,5 +1,16 @@
 <template>
   <div id="app" class="container-fluid text-white">
+    <div class="row">
+      <div
+        style="background: yellow; border: 3px solid grey; border-radiu: 5" class="col-4 offset-4" mt-5
+      >
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+      </div>
+    </div>
     <vue-particles
       color="#000"
       class="particle"
