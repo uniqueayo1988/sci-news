@@ -2,13 +2,18 @@
   <div id="app" class="container-fluid text-white">
     <div class="row">
       <div
-        style="background: yellow; border: 3px solid grey; border-radiu: 5" class="col-4 offset-4" mt-5
+        style="background: tomato; border: 3px solid grey; border-radius: 10px; margin-top: 100px;" class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-10 offset-1 text-center" mt-5
       >
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
+        <div class="text-right py-2">
+          <span class="font-weight-bold" style="font-size: 20px; cursor: pointer">X</span>
+        </div>
+        <h2 class="text-uppercase">Sign In</h2>
+        <div class="modal-body">
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+        </div>
       </div>
     </div>
     <vue-particles
